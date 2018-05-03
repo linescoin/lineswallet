@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lines Wallet
+Comment=Lines wallet
+Exec=Lines %U
+Terminal=false
+Type=Application
+Icon=lines
+MimeType=x-scheme-handler/lines;
+Categories=Office;Finance;
