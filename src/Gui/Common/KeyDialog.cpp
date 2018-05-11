@@ -89,7 +89,7 @@ KeyDialog::KeyDialog(const QByteArray& _key, bool _isTracking, bool _isPrivateKe
 	m_ui->m_keyEdit->setReadOnly(true);
 	m_ui->m_keyEdit->setPlainText("Secret spend key:\n" + m_key.toHex().toUpper().mid(0,64) + "\n\nSecret view key:\n" + m_key.toHex().toUpper().mid(64));
 	if (_isPrivateKeyExport) {
-		m_ui->m_descriptionLabel->setText(tr("These keys allow restoration of your wallet in new wallet software version 0.2.1 and above."));
+		m_ui->m_descriptionLabel->setText(tr("These keys allow restoration of your wallet in simplewallet."));
 	}
 
 	m_ui->m_cancelButton->hide();
